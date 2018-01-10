@@ -1,39 +1,38 @@
 body{
-  text-align: center;
-  font-family: helvetica;
-  color: white;
+  font-family: "Helvetica", sans-serif;
 }
+.top{
+  color: white;
+  text-align: center;
+  background-image: url(/Users/Timo/Documents/Projects/WebDev/Broadway/resources/images/the-flatiron-building.png);
+  background-size: cover;
+}
+h3,
+h2,
 h1{
   font-weight: bold;
+}
+h1{
   font-size: 70px;
-  background-image: url("resources/images/the-flatiron-building.png");
 }
 a{
   font-size: 18px;
+  color: white;
 }
 h2{
   font-weight: bold;
   font-size: 32px;
-  color: black;
+}
+.mid,
+h3,
+.end p,
+.contact p{
+  text-align: center;
 }
 h3{
   font-size: 23px;
-  font-weight: bold;
-  color: black;
 }
-p{
-  font-size: 14px;
-  color: black;
-}
-.designlocation {
-  font-size: 23px;
-  font-weight: bold;
-  color: white;
-  background-image: url("resources/images/the-flatiron-building.png");
-}
-.copyright{
-  font-size: 11px;
+.footer {
   background-color: dimgray;
   color: white;
-
 }
